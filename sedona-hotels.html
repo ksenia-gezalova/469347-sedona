@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+    <a class="main-header-logo">
+        <img src="img/logo-index.png" alt="Logo Sedona" width="138" height="70">
+    </a>
+    <nav class="main-nav">
+        <ul class="site-nav">
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="media.html">Фото и видео</a></li>
+            <li><a href="map.html">Карта штата</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <h1 class="visually-hidden">Поиск отеля</h1>
+    <section class="filters">
+        <h2 class="visually-hidden">Фильтр</h2>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+                <li class="filter-option">
+                    <input type="checkbox" name="pool" checked>Бассейн
+                </li>
+                <li class="filter-option">
+                    <input type="checkbox" name="parking">Парковка
+                </li>
+                <li class="filter-option">
+                    <input type="checkbox" name="wifi">Wi-Fi
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+                <li class="filter-option">
+                    <input type="checkbox" name="hotel" checked>Гостиница
+                </li>
+                <li class="filter-option">
+                    <input type="checkbox" name="motel" checked>Мотель
+                </li>
+                <li class="filter-option">
+                    <input type="checkbox" name="appartments" checked>Апартаменты
+                </li> 
+            </ul>
+        </fieldset>
+       <fieldset>
+           <legend>Стоимость в стуки (Р):</legend>
+           <span>От 0</span>
+           <span>До 3000</span>
+           <input type="range" min="0" max="3000" step="1">
+           <button type="submit" class="filter-button button">Показать</button>
+       </fieldset>
+    </section>
+    
+    <section class="results">
+        
+    </section>
+</main>
+</body>
+</html>
