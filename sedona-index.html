@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Welcome to Sedona</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,13 +20,15 @@
             <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
     </nav>
+    <div class="welcome-image"></div>
 </header>
     
 <main class="container">
+   <div class="welcome-block">
     <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
     <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-    
+    </div>
     <section class="features-1">
         <ul class="features-list-1">
             <li class="features-item-1">
@@ -106,7 +110,7 @@
             <button type="button" name="minus-children"><span class="icon-minus"></span></button>
             <input type="text" name="children" value="0" id="children">
             <button type="button" name="plus-children"><span class="icon-plus"></span></button>
-            <button class="button" type="submit">Найти</button>
+            <button class="button btn-search" type="submit">Найти</button>
         </form>
     </section>
     
