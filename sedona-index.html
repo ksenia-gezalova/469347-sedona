@@ -98,8 +98,14 @@
                 <label for="filter-check-out-date">Дата выезда:</label>
                 <input type="date" name="check-out-date" id="filter-check-out-date" value="2017-07-04">
             </p>
-            Взрослые
-            Дети
+        <label for="adults">Взрослые:</label>
+            <button type="button" name="minus-adult"><span class="icon-minus"></span></button>
+            <input type="text" name="adults" value="2" id="adults">
+            <button type="button" name="plus-adult"><span class="icon-plus"></span></button>
+        <label for="children">Дети:</label>
+            <button type="button" name="minus-children"><span class="icon-minus"></span></button>
+            <input type="text" name="children" value="0" id="children">
+            <button type="button" name="plus-children"><span class="icon-plus"></span></button>
             <button class="button" type="submit">Найти</button>
         </form>
     </section>
