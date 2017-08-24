@@ -14,14 +14,12 @@ body {
 a {
     text-decoration: none; 
     color: #333333;
-    list-style: 26px;
 }
 
 h2,
 h3,
 h4 {
     font-weight: bold;
-    text-align: center;
 }
 
 .button {
@@ -43,6 +41,14 @@ h4 {
 .features-list-2,
 .features-list-3 {
     list-style: none;  
+}
+
+.site-nav a:hover {
+    color: #81b3d2;
+}
+
+.site-nav a:active {
+    color: #b2b2b2;
 }
 
 .main-header {
@@ -76,10 +82,6 @@ h4 {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto; 
-}
-
-.container p{
-    text-align: center;
 }
 
 .welcome-block {
@@ -241,4 +243,98 @@ h4 {
 .btn-search:active {
    background-color: #5496bd;
     color: #88b6d1;
+}
+.main-footer {
+    background-color: #ffffff;
+}
+
+.footer-social b {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-copyright b {
+   font-weight: normal; 
+    line-height: 26px;
+}
+
+/*    LAYOUT FOR SEDONA-HOTELS */
+
+.filter {
+    background-image: url("/img/filter-background.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.filter legend {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.filter ul,
+.search-nav,
+.hotels-results {
+    list-style: none;
+}
+
+.filter-button {
+    background-color: transparent;
+    border-color: white;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.filter-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.qty {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.search-results {
+    background-color: #ffffff;
+}
+
+.btn-info {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.btn-info:hover {
+    background-color: #669ec0;
+}
+
+.btn-info:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
+
+.btn-buy {
+    background-color: #766357;
+    color: #ffffff;
+}
+
+.btn-buy:hover {
+    background-color: #604e43;
+}
+
+.btn-buy:active {
+    background-color: #503e33;
+    color: #81746d;
+}
+.hotels-item h3:hover {
+    color: #81b3d2;
+}
+
+.hotels-item h3:active {
+    color: #b2b2b2;
 }
