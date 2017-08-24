@@ -1,15 +1,165 @@
-/*body {
-  font-size: 21px;
-  font-family: "PTSans";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 26px;
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    
+    background-color: #f2f2f2;
+    color: #333333;
+}
 
+a {
+    text-decoration: none; 
+    color: #333333;
+    list-style: 26px;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+.button {
+    font: inherit;
+    
+    text-decoration: uppercase;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .visually-hidden {
+    position: absolute;
     visibility: hidden;
 }
-*/
+
+.site-nav,
+.features-list-1,
+.full-sub-features,
+.features-list-2,
+.features-list-3 {
+    list-style: none;  
+}
+
+.main-header {
+    font-weight: bold;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.welcome-image {
+    max-width: 1200px;
+    height: 560px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/img/background-photo.jpg");
+    background-repeat: no-repeat; 
+}
+
+/*    не понимаю почему не работает свойство 
+.welcome-image span {
+    background-image: url("/img/welcome-layer.png");
+} */
+
+.welcome-image::after {
+    content: url("/img/shape-1.png");
+    position: absolute;
+    bottom: -4px;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.welcome-block {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+}
+
+.welcome-block h2 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    height: 48px;
+    width: 440px;
+    padding-top: 61px;
+    padding-bottom: 20px;
+    margin-left: 380px;
+    margin-right: 380px;
+}
+
+.welcome-block p {
+    height: 13px;
+    width: 489px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 56px;
+    
+}
+.features-item-1 {
+    background-color: #81b3d2;
+    color: #ffffff;
+    max-width: 1200px;
+    height: 256px; 
+    position: relative;
+    margin-top: -19px;
+}
+
+.features-item-1 h3 {
+    font-weight: bold;
+    font-size: 21px;
+    width: 125px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.features-item-1 p {
+    width: 282px;
+}
+
+.features-item-1::after {
+   content: url("/img/feature-1.jpg");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.sub-features {
+    background-color: #ffffff;
+    margin-top: -25px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-features h4 {
+    font-size: 21px;
+}
+.features-2 {
+    background-color: #81b3d2;
+    color: #ffffff;
+    max-width: 1200px;
+    height: 256px; 
+    position: relative;
+    margin-top: -17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-2::before {
+    content: url("/img/feature-2.jpg");
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
 
