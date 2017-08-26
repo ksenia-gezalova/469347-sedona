@@ -22,6 +22,10 @@ h4 {
     font-weight: bold;
 }
 
+section {
+    width: 1200px;
+}
+
 .button {
     font: inherit;
     
@@ -60,36 +64,42 @@ h4 {
 .welcome-image {
     max-width: 1200px;
     height: 560px;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/background-photo.jpg");
     background-repeat: no-repeat; 
+
 }
 
-/*    не понимаю почему не работает свойство 
-.welcome-image span {
-    background-image: url("../img/welcome-layer.png");
-} */
+.welcome-image img {
+    margin-top: 76px;
+    margin-bottom: 23px;
+    margin-left: 360px;
+}
 
 .welcome-image::after {
     content: url("../img/shape-1.png");
     position: absolute;
-    bottom: -4px;
+    top: 685px;
+    left: 0px;
 }
 
 .container {
-    max-width: 1280px;
+    position: relative;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto; 
+    box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .welcome-block {
     background-color: #ffffff;
     max-width: 1200px;
+    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -17px;
 }
 
 .welcome-block h2 {
@@ -97,97 +107,109 @@ h4 {
     font-size: 21px;
     line-height: 26px;
     text-align: center;
-    height: 48px;
     width: 440px;
-    padding-top: 61px;
-    padding-bottom: 20px;
     margin-left: 380px;
     margin-right: 380px;
 }
 
 .welcome-block p {
-    height: 13px;
     width: 489px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 56px;
-    
+    padding-bottom: 60px;
+}
+
+.features-1 {
+    background-color: #81b3d2;
+    color: #ffffff; 
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.features-1 h3 {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.features-1::after {
+    content: url("../img/feature-1.jpg");  
 }
 
 .features-item-1 {
-    background-color: #81b3d2;
-    color: #ffffff;
-    max-width: 1200px;
-    height: 256px; 
-    position: relative;
-    margin-top: -19px;
-}
-
-.features-item-1 h3 {
-    font-weight: bold;
-    font-size: 21px;
-    width: 125px;
     text-align: center;
-    padding-top: 45px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.features-item-1 p {
-    width: 282px;
-}
-
-.features-item-1::after {
-   content: url("../img/feature-1.jpg");
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
 .sub-features {
     background-color: #ffffff;
-    margin-top: -25px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+}
+
+.full-sub-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
 .sub-features h4 {
     font-size: 21px;
 }
+
 .features-2 {
     background-color: #81b3d2;
     color: #ffffff;
-    max-width: 1200px;
-    height: 256px; 
-    position: relative;
-    margin-top: -17px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.features-2 h3 {
+    font-weight: bold;
+    font-size: 21px;
 }
 
 .features-2::before {
     content: url("../img/feature-2.jpg");
-    position: absolute; 
-    top: 0;
-    left: 0;
 }
 
+.features-item-2 {
+    text-align: center;
+    max-width: 300px;
+}
 
 .features-list-3 {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
 .order {
     background-color: #ffffff;
-    height: 292px;
+    height: 250px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .order h2 {
     font-size: 30px;
+    font-weight: bold; 
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.order p {
+    width: 450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hotels-search h2 {
@@ -195,10 +217,13 @@ h4 {
     color: #ffffff;
     font-size: 21px;
     line-height: 26px;
-    width: 568px;
-    height: 86px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    width: 570px;
+    height: 60px;
+    position: absolute;
+    left: 325px;
+    bottom: 835px;
+    padding-top: 30px;
 }
 
 .hotels-search h2:hover {
@@ -241,11 +266,12 @@ h4 {
 }
 
 .btn-search:active {
-   background-color: #5496bd;
+    background-color: #5496bd;
     color: #88b6d1;
 }
+
 .main-footer {
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 
 .footer-social b {
@@ -256,6 +282,10 @@ h4 {
 
 .footer-social ul {
     list-style: none;
+    width: 160px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-copyright b {
@@ -338,3 +368,14 @@ h4 {
 .hotels-item h3:active {
     color: #b2b2b2;
 }
+
+
+/*           СЕТКИ         */    
+
+
+
+
+
+
+
+
