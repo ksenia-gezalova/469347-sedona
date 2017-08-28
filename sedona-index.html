@@ -21,12 +21,12 @@
             <li><a href="sedona-hotels.html">Гостиницы</a></li>
         </ul>
     </nav>
-    <div class="welcome-image">
-        <img src="/img/welcome-layer.png" alt="Welcome to the gorgeous Sedona" width="458" height="352">
-    </div>
 </header>
    
 <main>
+   <div class="welcome-image">
+        <img src="img/welcome-layer.png" alt="Welcome to the gorgeous Sedona" width="458" height="352">
+    </div>
     <section class="welcome-block">
     <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
     <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -45,15 +45,15 @@
     <section class="sub-features">  
             <ul class="full-sub-features">
                 <li class="sub-features-item">
-                        <h4>Жилье</h4>
+                        <h4 class="appartments-promo">Жилье</h4>
                         <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                 </li>
                     <li class="sub-features-item">
-                        <h4>Еда</h4>
+                        <h4 class="food-promo">Еда</h4>
                         <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                     </li>
                     <li class="sub-features-item">
-                        <h4>Сувениры</h4>
+                        <h4 class="gifts-promo">Сувениры</h4>
                         <p>Не только китайского, но и местного производства!</p>
                     </li>
             </ul>
@@ -89,6 +89,8 @@
         </ul>
     </section>
     
+    <div class="position-column">
+    
     <section class="order">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -113,9 +115,11 @@
             <button type="button" name="minus-children"><span class="icon-minus"></span></button>
             <input type="text" name="children" value="0" id="children">
             <button type="button" name="plus-children"><span class="icon-plus"></span></button>
-            <button class="button btn-search" type="submit">Найти</button>
+            <button type="submit" class="btn-search button">Найти</button>
         </form>
     </section>
+    
+    </div>
     
     <img src="img/map.jpg" usemap="#local-map" alt="Sedona Map">
     <map name="local-map">
@@ -126,17 +130,17 @@
 <footer class="main-footer">
     <div class="footer-social">
         <b>#visitsedona</b>
-         <ul>
+         <ul class="social-link">
                 <li><a class="social-button" href="#">Twitter</a></li>
                 <li><a class="social-button" href="#">Facebook</a></li>
                 <li><a class="social-button" href="#">Youtube</a></li>
         </ul>
-    </div>
     <p class="footer-copyright">
         <b>Website by 
         <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
         </b>
     </p>
+    </div>
 </footer>
 </div>
 </body>
