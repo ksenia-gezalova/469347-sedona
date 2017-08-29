@@ -116,25 +116,26 @@ section {
 
 .welcome-image {
     max-width: 1200px;
-    height: 560px;
+    height: 508px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/background-photo.jpg");
     background-repeat: no-repeat; 
     position: relative;
+    background-position: 50% 22%;
+    text-align: center;
 
 }
 
 .welcome-image img {
-    margin-top: 76px;
+    margin-top: 75px;
     margin-bottom: 23px;
-    margin-left: 360px;
 }
 
 .welcome-image::after {
     content: url("../img/shape-1.png");
     position: absolute;
-    bottom: -4px;
+    bottom: -6px;
     left: 0;
 }
 
@@ -153,6 +154,7 @@ section {
     padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 155px;
 }
 
 .welcome-block h2 {
@@ -163,6 +165,8 @@ section {
     width: 440px;
     margin-left: 380px;
     margin-right: 380px;
+    margin-top: 0;
+    letter-spacing: 0.22pt;
 }
 
 .welcome-block p {
