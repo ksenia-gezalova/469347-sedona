@@ -456,13 +456,12 @@ input[type="radio"].visually-hidden {
     color: #88b6d1;
 }
 
-.plus-adult,
-.plus-children,
-.minus-adult,
-.minus-children {
+.plus,
+.minus {
     background-color: #f2f2f2;
     height: 38px;
     width: 38px;
+    border: none;
 }
 
 .searching-item {
@@ -591,7 +590,7 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/filter-background.png");
     background-repeat: no-repeat;
     color: #ffffff;
-    min-height: 215px;
+    min-height: 217px;
     
 }
 
@@ -626,7 +625,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-option {
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .filter-button {
@@ -685,6 +684,11 @@ input[type="radio"].visually-hidden {
 .btn-info {
     background-color: #81b3d2;
     color: #ffffff;
+    width: 110px;
+    height: 27px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .btn-info:hover {
@@ -699,6 +703,9 @@ input[type="radio"].visually-hidden {
 .btn-buy {
     background-color: #766357;
     color: #ffffff;
+    width: 142px;
+    height: 27px;
+    font-weight: bold;
 }
 
 .btn-buy:hover {
@@ -719,7 +726,6 @@ input[type="radio"].visually-hidden {
 
 .hotels-item {
     display: flex;
-
 }
 
 .wrap-column-1 {
@@ -730,4 +736,64 @@ input[type="radio"].visually-hidden {
 .raiting {
     background-color: #f2f2f2;
     max-width: 112px;
+}
+
+.wrap-column-2 {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stars {
+    background-image: url("../img/star.svg");
+    width: 18px;
+    height: 17px;
+        
+}
+
+.second-wrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.second-wrap b {
+    margin-right: 20px;
+}
+
+.third-wrap {
+    display: flex;
+}
+
+.third-wrap a {
+    display: block;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.by-type,
+.by-raiting {
+    border-bottom: 1px dotted grey; 
+}
+
+.sort-up {
+    width: 11px;
+    height: 10px;
+    background-image: url("../img/icon-up-dir.svg");
+    background-repeat: no-repeat;
+}
+
+.sort-down {
+    width: 11px;
+    height: 10px;
+    background-image: url("../img/icon-down-dir.svg");
+    background-repeat: no-repeat;
+}
+
+.wrap-stars {
+    display: flex;
+}
+
+.sorting-btn {
+    display: flex;
 }
