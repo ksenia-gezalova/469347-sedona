@@ -7,12 +7,12 @@
 </head>
 <body class="container">
     <header class="main-header">
-    <a class="main-header-logo">
+    <a class="main-header-logo" href="index.html">
         <img src="img/logo-index.png" alt="Logo Sedona" width="138" height="70">
     </a>
     <nav class="main-nav">
         <ul class="site-nav">
-            <li><a href="index.html">Информация</a></li>
+            <li><a href="info.html">Информация</a></li>
             <li><a href="media.html">Фото и видео</a></li>
             <li><a href="map.html">Карта штата</a></li>
             <li><a href="hotels.html">Гостиницы</a></li>
@@ -28,45 +28,67 @@
             <legend>Инфраструктура:</legend>
             <ul>
                 <li class="filter-option">
-                    <input type="checkbox" name="pool" id="filter-pool" checked>
-                    <label for="filter-pool">Бассейн</label>
+                   <label for="filter-pool" class="options-checkbox">
+                    <input type="checkbox" name="pool" id="filter-pool" class="visually-hidden" checked>
+                    <span class="checkbox-indicator"></span>
+                    Бассейн</label>
                 </li>
                 <li class="filter-option">
-                    <input type="checkbox" name="parking" id="filter-parking">
-                    <label for="filter-parking">Парковка</label>
+                   <label for="filter-parking" class="options-checkbox">
+                    <input type="checkbox" name="parking" id="filter-parking" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Парковка</label>
                 </li>
                 <li class="filter-option">
-                    <input type="checkbox" name="wifi" id="filter-wifi">
-                    <label for="filter-wifi">Wi-Fi</label>
+                    <label for="filter-wifi" class="options-checkbox">
+                    <input type="checkbox" name="wifi" id="filter-wifi" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Wi-Fi</label>
                 </li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="appart-options">
             <legend>Тип жилья:</legend>
             <ul>
                 <li class="filter-option">
-                    <input type="checkbox" name="hotel" id="filter-hotel" checked>
-                    <label for="filter-hotel">Гостиница</label>
+                    <label for="filter-hotel" class="options-checkbox">
+                    <input type="checkbox" name="hotel" id="filter-hotel" class="visually-hidden" checked>
+                    <span class="checkbox-indicator"></span>
+                    Гостиница</label>
                 </li>
                 <li class="filter-option">
-                    <input type="checkbox" name="motel" id="filter-motel" checked>
-                    <label for="filter-motel">Мотель</label>
+                    <label for="filter-motel" class="options-checkbox">
+                    <input type="checkbox" name="motel" id="filter-motel" class="visually-hidden" checked>
+                    <span class="checkbox-indicator"></span>
+                    Мотель</label>
                 </li>
                 <li class="filter-option">
-                    <input type="checkbox" name="appartments" id="filter-appartments" checked>
-                    <label for="filter-appartments">Апартаменты</label>
+                    <label for="filter-appartments" class="options-checkbox">
+                    <input type="checkbox" name="appartments" id="filter-appartments" class="visually-hidden" checked>
+                    <span class="checkbox-indicator"></span>
+                    Апартаменты</label>
                 </li> 
             </ul>
         </fieldset>
-       <fieldset>
-           <legend>Стоимость в стуки (Р):</legend>
-           <label for="filter-price">
-           <span>От 0</span>
-           <span>До 3000</span>
-           </label>
-           <input type="range" min="0" max="3000" step="1" id="filter-price">
-           <button type="submit" class="filter-button button">Показать</button>
-       </fieldset>
+       <div class="filter-range">
+           <div class="filter-range-title">Стоимость в стуки (Р):</div>
+           <div class="price-controls">
+               <label class="min-price">
+                   от <input type="text" name="min-price" value="0">
+               </label>
+               <label class="max-price">
+                   до <input type="text" name="max-price" value="3000">
+               </label>
+           </div>
+           <div class="range-controls">
+               <div class="scale">
+                   <div class="bar"></div>
+               </div>
+               <div class="range-toggle range-toggle-min"></div>
+               <div class="range-toggle range-toggle-max"></div>
+           </div>
+           <button class="button btn-transparent" type="submit">Показать</button>
+       </div>
     </form>
     </section>
     
@@ -75,17 +97,17 @@
            <li class="qty">
                <b>Найдено: 3</b>
            </li>
-           <li class="sorted">
+           <li>
                <p>Сортировка:</p>
            </li>
            <li class="by-price">
-               <p>По цене</p>
+               <button type="submit" class="button btn-sorting">По цене</button>
            </li>
            <li class="by-type">
-               <p>По типу</p>
+               <button type="submit" class="button btn-sorting">По типу</button>
            </li>
            <li class="by-raiting">
-               <p>По рейтингу</p>
+               <button type="submit" class="button btn-sorting">По рейтингу</button>
            </li>
            <li class="sorting-btn">
                <span class="sort-up"></span>
@@ -148,7 +170,7 @@
                 <div class="wrap-column-1">
                <h3>Villas at Poco Diablo</h3>
                <div class="second-wrap">
-                   <b class="appart-type">Аппартаменты</b>
+                   <b class="appart-type">Апартаменты</b>
                    <b class="search-item-price">От 2000 р.</b></div>
                <div class="third-wrap">
                    <a href="villas-info.html" class="button btn-info">Подробнее</a>

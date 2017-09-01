@@ -34,13 +34,11 @@
     <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     </section>
     <section class="features-1">
-        <ul class="features-list-1">
-            <li class="features-item-1">
-                <h3>Настоящий городок</h3>
+            <div class="features-item-1">
+                <h3>Настоящий<br> городок</h3>
                 <span> — №1 —</span>
                 <p>Седона  —  не аттракцион для туристов, там течет своя жизнь</p>
-            </li>
-        </ul>
+            </div>
     </section>
     
     <section class="sub-features">  
@@ -63,7 +61,7 @@
     <section class="features-2">
         <ul class="features-list-2">
             <li class="features-item-2">
-                <h3>Там есть мост дьявола</h3>
+                <h3>Там есть<br> мост дьявола</h3>
                 <span> — №2 —</span>
                 <p>Да, но по нему можно пройти! Если конечно вы осмелитесь</p>
             </li>
@@ -73,17 +71,17 @@
     <section class="features-3"> 
         <ul class="features-list-3">   
             <li class="features-item-3">
-                <h3>Небольшая площадь</h3>
+                <h3>Небольшая<br> площадь</h3>
                 <span> — №3 —</span>
                 <p>Все достопримечательности находятся очень близко</p>
             </li>
             <li class="features-item-3">
-                <h3>Красивая дорога</h3>
+                <h3>Красивая<br> дорога</h3>
                 <span> — №4 —</span>
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
             <li class="features-item-3">
-                <h3>Мало туристов</h3>
+                <h3>Мало<br> туристов</h3>
                 <span> — №5 —</span>
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
             </li>
@@ -103,19 +101,19 @@
                 <label for="filter-check-out-date">Дата выезда:</label>
                 <input type="date" name="check-out-date" id="filter-check-out-date" value="2017-07-04">
             </p>
-            <div class="wrap-column">
+            <div class="wrap-column-index">
         <label for="adults">Взрослые:</label>
-            <button type="button" name="minus-adult" class="minus"><span class="visually-hidden">Уменьшить количество взрослых</span>
-            </button>
+            <span class="minus">
+            <span class="plus">
             <input type="text" name="adults" value="2" id="adults">
-            <button type="button" name="plus-adult" class="plus"><span class="visually-hidden">Увеличить количество взрослых</span>
-            </button>
+            </span>
+            </span>
         <label for="children">Дети:</label>
-            <button type="button" name="minus-children" class="minus"><span class="visually-hidden">Уменьшить количество детей</span>
-            </button>
+            <span class="minus">
+            <span class="plus">
             <input type="text" name="children" value="0" id="children">
-            <button type="button" name="plus-children" class="plus"><span class="visually-hidden">Увеличить количество детей</span>
-            </button>
+            </span>
+            </span>
             </div>
             <button type="submit" class="btn-search button">Найти</button>
         </form>
