@@ -101,20 +101,22 @@
                 <label for="filter-check-out-date">Дата выезда:</label>
                 <input type="date" name="check-out-date" id="filter-check-out-date" value="2017-07-04">
             </p>
-            <div class="wrap-column-index">
-        <label for="adults">Взрослые:</label>
-            <span class="minus">
-            <span class="plus">
-            <input type="text" name="adults" value="2" id="adults">
-            </span>
-            </span>
-        <label for="children">Дети:</label>
-            <span class="minus">
-            <span class="plus">
-            <input type="text" name="children" value="0" id="children">
-            </span>
-            </span>
-            </div>
+            <p class="searching-item">
+                <label for="adults">Взрослые:</label>
+                <span class="visually-hidden">Уменьшить количество взрослых</span>
+                <button class="minus">-</button>
+                <input type="text" name="adults" value="2" id="adults">
+                <span class="visually-hidden">Увеличить количество взрослых</span>
+                <button class="plus">+</button>
+            </p>
+            <p class="searching-item">
+                <label for="children">Дети:</label>
+                <span class="visually-hidden">Уменьшить количество детей</span>
+                <button class="minus">-</button>
+                <input type="text" name="children" value="0" id="children">
+                <span class="visually-hidden">Увеличить количество детей</span>
+                <button class="plus">+</button>
+            </p>
             <button type="submit" class="btn-search button">Найти</button>
         </form>
     </section>
