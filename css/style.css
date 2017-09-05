@@ -150,7 +150,7 @@ input[type="radio"].visually-hidden {
 .welcome-image::after {
     content: url("../img/shape-1.png");
     position: absolute;
-    bottom: -5px;
+    bottom: -6px;
     left: 0;
 }
 
