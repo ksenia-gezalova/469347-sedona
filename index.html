@@ -183,7 +183,9 @@ searchForm.addEventListener("submit", function (evt) {
     if (!dateCheckIn.value || !dateCheckOut.value || !adults.value) {
         evt.preventDefault(); 
         console.log("Нужно указать дату заезда и дату выезда, а также количество гостей");
-        searchForm.classList.add("search-form-error");
+    } else {
+        localStorage.setItem("adults", adults.value);
+        localStorage.setItem("children", children.value);
     }
 });
     
