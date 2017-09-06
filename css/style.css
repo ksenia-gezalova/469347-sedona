@@ -1,18 +1,16 @@
 body {
     margin: 0px;
     padding: 0px;
-    
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 21px;
     text-transform: uppercase;
-    
     background-color: #f2f2f2;
     color: #333333;
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
     color: #333333;
 }
 
@@ -27,30 +25,25 @@ section {
 }
 
 .button {
-  font: inherit;
-
-  text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
-  text-transform: uppercase;
-
-  background-color: #000000;
-  border: none;
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: none;
 }
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
     position: absolute;
-
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
-
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -58,9 +51,8 @@ input[type="radio"].visually-hidden {
 
 .site-nav,
 .full-sub-features,
-.features-list-2,
 .features-list-3 {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -85,7 +77,6 @@ input[type="radio"].visually-hidden {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-    
 }
 
 .site-nav {
@@ -104,7 +95,6 @@ input[type="radio"].visually-hidden {
     width: 20%;
     margin: 0;
     padding: 0;
-
 }
 
 .site-nav li:first-child {
@@ -135,11 +125,10 @@ input[type="radio"].visually-hidden {
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/background-photo.jpg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     position: relative;
     background-position: 50% 21%;
     text-align: center;
-
 }
 
 .welcome-image img {
@@ -157,7 +146,7 @@ input[type="radio"].visually-hidden {
 .container {
     width: 1200px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
     box-sizing: border-box;
     padding: 0;
@@ -169,7 +158,6 @@ input[type="radio"].visually-hidden {
     padding-bottom: 49px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .welcome-block h2 {
@@ -194,9 +182,9 @@ input[type="radio"].visually-hidden {
 
 .features-1 {
     background-color: #81b3d2;
-    color: #ffffff; 
+    color: #ffffff;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .features-1 h3 {
@@ -279,10 +267,6 @@ input[type="radio"].visually-hidden {
     height: 256px;
 }
 
-.features-list-2 {
-    width: 400px;
-}
-
 .features-item-2 {
     text-align: center;
     padding-top: 26px;
@@ -336,7 +320,7 @@ input[type="radio"].visually-hidden {
 
 .order h2 {
     font-size: 30px;
-    font-weight: bold; 
+    font-weight: bold;
     padding-bottom: 8px;
     padding-top: 60px;
 }
@@ -358,7 +342,6 @@ input[type="radio"].visually-hidden {
     margin-top: 48px;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
 
 .btn-search-appartments:hover {
@@ -384,15 +367,15 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form p {
-    margin: 0; 
+    margin: 0;
     margin-bottom: 30px;
     text-align: left;
 }
 
 .search-form input[type="text"] {
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
     border: none;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font: inherit;
     font-weight: bold;
     text-transform: uppercase;
@@ -411,6 +394,10 @@ input[type="radio"].visually-hidden {
     position: absolute;
     left: 85%;
     opacity: 0.3;
+}
+
+.calendar svg {
+    display: block;
 }
 
 .calendar:hover {
@@ -467,7 +454,7 @@ input[type="radio"].visually-hidden {
     font-weight: bold;
     line-height: 26px;
     padding-right: 20px;
-    width: 111px;    
+    width: 111px;
 }
 
 .btn-search {
@@ -475,7 +462,7 @@ input[type="radio"].visually-hidden {
     line-height: 26px;
     font-weight: bold;
     background-color: #81b3d2;
-    color: #ffffff; 
+    color: #ffffff;
     min-height: 58px;
     min-width: 457px;
 }
@@ -513,14 +500,15 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     min-height: 121px;
+    opacity: 0.9;
 }
 
 .index-footer {
     position: relative;
     z-index: 1;
-    margin-top: -121px;
+    margin-top: -124px;
 }
 
 .footer-social b {
@@ -541,11 +529,10 @@ input[type="radio"].visually-hidden {
 
 .footer-social ul {
     list-style: none;
-    width: 151px; 
+    width: 151px;
     text-align: center;
     margin: 0;
     margin-left: 14px;
-
 }
 
 .footer-copyright {
@@ -591,8 +578,8 @@ input[type="radio"].visually-hidden {
 }
 
 .social-button:hover path {
-  fill: #ffffff;
-} 
+    fill: #ffffff;
+}
 
 .social-button:active path {
     fill: #88b6d1;
@@ -615,12 +602,13 @@ input[type="radio"].visually-hidden {
 }
 
 .btn-htmlacademy:hover path {
-   fill: #81b3d2; 
+    fill: #81b3d2;
 }
 
 .btn-htmlacademy:active path {
-   fill: #bdbbbc; 
+    fill: #bdbbbc;
 }
+
 
 /*    LAYOUT FOR SEDONA-HOTELS */
 
@@ -628,7 +616,6 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/filter-background.png");
     background-repeat: no-repeat;
     color: #ffffff;
-    
 }
 
 .filters legend {
@@ -663,7 +650,6 @@ input[type="radio"].visually-hidden {
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 .filter-option {
@@ -688,13 +674,13 @@ input[type="radio"].visually-hidden {
     padding-left: 38px;
 }
 
-.options-checkbox input[type="checkbox"] + .checkbox-indicator {
+.options-checkbox input[type="checkbox"]+.checkbox-indicator {
     position: absolute;
     top: 0;
     left: 0;
     width: 18px;
     height: 18px;
-    border: 2px solid #ffffff; 
+    border: 2px solid #ffffff;
     border-radius: 3px;
 }
 
@@ -702,14 +688,14 @@ input[type="radio"].visually-hidden {
     border-color: #6a6a6a;
 }
 
-.options-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
-.options-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+.options-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before,
+.options-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after {
     content: "";
     position: absolute;
     background-color: #ffffff;
 }
 
-.options-checkbox input[type="checkbox"] + .checkbox-indicator::before {
+.options-checkbox input[type="checkbox"]+.checkbox-indicator::before {
     transform: rotate(45deg);
     width: 10px;
     height: 4px;
@@ -717,7 +703,7 @@ input[type="radio"].visually-hidden {
     left: 2px;
 }
 
-.options-checkbox input[type="checkbox"] + .checkbox-indicator::after {
+.options-checkbox input[type="checkbox"]+.checkbox-indicator::after {
     transform: rotate(-45deg);
     width: 22px;
     height: 4px;
@@ -739,7 +725,6 @@ input[type="radio"].visually-hidden {
     padding-left: 48px;
     font-size: 12px;
     line-height: 18px;
-    
 }
 
 .search-nav button {
@@ -808,6 +793,7 @@ input[type="radio"].visually-hidden {
     background-color: #503e33;
     color: #81746d;
 }
+
 .hotels-item h3:hover {
     color: #81b3d2;
 }
@@ -841,7 +827,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     width: 18px;
     height: 17px;
-    padding-left: 4px;   
+    padding-left: 4px;
 }
 
 .second-wrap b {
@@ -874,9 +860,9 @@ input[type="radio"].visually-hidden {
 
 .sort-down {
     width: 11px;
-    height: 10px; 
+    height: 10px;
     transform: rotate(180deg);
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .sort-up path {
@@ -930,6 +916,7 @@ input[type="radio"].visually-hidden {
     border: none;
     color: #b3d1e4;
 }
+
 
 /*        Декор ползунка стоимости на странице отелей*/
 
@@ -1029,11 +1016,12 @@ input[type="radio"].visually-hidden {
 .range-toggle-max {
     left: 80%;
 }
+
 .btn-transparent {
     display: block;
     padding: 5px 32px;
     margin: 0 auto;
-    background-color:  transparent;
+    background-color: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
     cursor: pointer;
@@ -1060,7 +1048,6 @@ input[type="radio"].visually-hidden {
     padding-bottom: 15px;
     font-weight: 300;
 }
-
 
 .hide-search {
     display: none;
