@@ -1191,4 +1191,5 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/map.jpg");
     width: 1200px;
     height: 593px;
+    border: none;
 }
