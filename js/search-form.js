@@ -5,8 +5,8 @@ var dateCheckOut = searchForm.querySelector("[name=check-out-date]");
 var adults = searchForm.querySelector("[name=adults]");
 var children = searchForm.querySelector("[name=children]");
 
-window.addEventListener("load", function (evt) {
-    searchForm.classList.add("hide-search");
+window.addEventListener("load", function () {
+    searchForm.classList.add("hide-search")
 });
 
 btn.addEventListener("click", function (evt) {
