@@ -97,7 +97,7 @@ input[type="radio"].visually-hidden {
     width: 100%;
     margin: 0;
     padding: 0;
-    padding-top: 17px;
+    padding-top: 16px;
     padding-bottom: 20px;
 }
 
@@ -166,8 +166,8 @@ input[type="radio"].visually-hidden {
 
 .welcome-block {
     background-color: #ffffff;
-    padding-top: 61px;
-    padding-bottom: 49px;
+    padding-top: 58px;
+    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -246,17 +246,19 @@ input[type="radio"].visually-hidden {
     -ms-flex-align: baseline;
     align-items: baseline;
     text-align: center;
-    padding-top: 56px;
+    padding-top: 58px;
 }
 
 .sub-features h4 {
     font-size: 21px;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
+    margin-top: 22px;
 }
 
 .sub-features-item {
     width: 300px;
     padding-bottom: 70px;
+    letter-spacing: 0.1px;
 }
 
 .appartments-promo::before {
@@ -292,7 +294,7 @@ input[type="radio"].visually-hidden {
 
 .features-item-2 {
     text-align: center;
-    padding-top: 26px;
+    padding-top: 20px;
     padding-bottom: 25px;
     line-height: 21px;
     letter-spacing: 0.07px;
@@ -305,7 +307,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-3 {
-    min-height: 230px;
+    padding-bottom: 20px;
 }
 
 .features-3 h3 {
@@ -313,7 +315,7 @@ input[type="radio"].visually-hidden {
     font-size: 21px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 29px;
+    padding-top: 24px;
 }
 
 .features-list-3 {
@@ -333,7 +335,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-item-3 p {
-    padding-top: 11px;
+    padding-top: 10px;
     letter-spacing: 0.09px;
 }
 
@@ -349,8 +351,8 @@ input[type="radio"].visually-hidden {
 .order h2 {
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 8px;
-    padding-top: 60px;
+    padding-bottom: 5px;
+    padding-top: 58px;
 }
 
 .order p {
@@ -390,7 +392,7 @@ input[type="radio"].visually-hidden {
     transform: translateX(-50%);
     top: 100%;
     padding-top: 55px;
-    padding-left: 57px;
+    padding-left: 54px;
     padding-right: 57px;
     padding-bottom: 56px;
     -webkit-box-shadow: 0px 0px 35px 3px rgba(0, 1, 1, 0.2);
@@ -472,6 +474,7 @@ input[type="radio"].visually-hidden {
     font-size: 24px;
     font-weight: 600;
     cursor: pointer;
+    padding-bottom: 3px;
 }
 
 .minus:hover,
@@ -594,7 +597,7 @@ input[type="radio"].visually-hidden {
     font-weight: normal;
     padding: 0;
     padding-right: 7px;
-    padding-top: 4px;
+    padding-top: 0px;
     font-size: 12px;
     letter-spacing: 1px;
 }
@@ -685,15 +688,15 @@ input[type="radio"].visually-hidden {
     background-position: 50% 17%;
     color: #ffffff;
     background-color: cornflowerblue;
-    padding-top: 27px;
-    padding-bottom: 13px;
+    padding-top: 26px;
+    padding-bottom: 9px;
 }
 
 .filters legend {
     font: inherit;
     font-size: 16px;
     font-weight: 600;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 
 .filters fieldset {
@@ -805,23 +808,25 @@ input[type="radio"].visually-hidden {
     padding-left: 71px;
     padding-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
+    letter-spacing: 0.2px;
+    font-size: 14px;
 }
 
 .search-nav li:nth-child(2) {
-    padding-left: 48px;
+    padding-left: 46px;
     font-size: 12px;
     line-height: 18px;
 }
 
 .search-nav button {
-    margin-left: 35px;
+    margin-left: 30px;
     font-size: 11px;
     line-height: 16px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .search-nav button:not(.btn-sorting-active) {
-    margin-left: 34px;
+    margin-left: 29px;
     padding: 0;
     opacity: 0.3;
 }
@@ -842,8 +847,8 @@ input[type="radio"].visually-hidden {
 }
 
 .hotels-item {
-    min-height: 150px;
     border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 24px;
 }
 
 .hotels-item img {
@@ -858,7 +863,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
     vertical-align: top;
     font-weight: 600;
-    padding: 3px 16px;
+    padding: 2px 16px;
     display: block;
 }
 
@@ -875,7 +880,7 @@ input[type="radio"].visually-hidden {
     background-color: #766357;
     color: #ffffff;
     font-weight: 600;
-    padding: 3px 16px;
+    padding: 2px 16px;
     vertical-align: top;
     display: block;
 }
@@ -924,8 +929,8 @@ input[type="radio"].visually-hidden {
     align-items: flex-end;
     margin-left: auto;
     margin-right: 73px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 17px;
+    padding-bottom: 0px;
 }
 
 .stars {
@@ -937,14 +942,14 @@ input[type="radio"].visually-hidden {
 }
 
 .second-wrap b {
-    width: 112px;
+    width: 111px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .third-wrap a {
     display: block;
     margin-right: 8px;
-    padding-top: 5px;
 }
 
 .sort-up {
@@ -985,6 +990,8 @@ input[type="radio"].visually-hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 30px;
+    padding-top: 9px;
 }
 
 .sorting-btn {
