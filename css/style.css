@@ -14,16 +14,6 @@ a {
     color: #333333;
 }
 
-h2,
-h3,
-h4 {
-    font-weight: bold;
-}
-
-section {
-    width: 1200px;
-}
-
 .button {
     font: inherit;
     text-align: center;
@@ -251,6 +241,7 @@ input[type="radio"].visually-hidden {
 
 .sub-features h4 {
     font-size: 21px;
+    font-weight: bold;
     margin-bottom: 25px;
     margin-top: 22px;
 }
@@ -397,6 +388,14 @@ input[type="radio"].visually-hidden {
     padding-bottom: 56px;
     -webkit-box-shadow: 0px 0px 35px 3px rgba(0, 1, 1, 0.2);
     box-shadow: 0px 0px 35px 3px rgba(0, 1, 1, 0.2);
+    
+    -webkit-animation-name: show;
+    
+            animation-name: show;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
 }
 
 .search-form p {
@@ -1020,7 +1019,6 @@ input[type="radio"].visually-hidden {
 .btn-sorting {
     background-color: transparent;
     color: black;
-    opacity: 0.9;
     border-bottom: 1px dotted grey;
     font-size: 12px;
     cursor: pointer;
@@ -1030,16 +1028,21 @@ input[type="radio"].visually-hidden {
 }
 
 .btn-sorting:hover {
-    color: #b3d1e4;
+    color: #a3c7de;
 }
 
 .btn-sorting:active {
-    color: #888888;
+    color: #231f20;
+    opacity: 0;
 }
 
 .btn-sorting-active {
     border: none;
     color: #b3d1e4;
+}
+
+.btn-sorting-active:hover {
+    color: #a3c7de;
 }
 
 
@@ -1192,4 +1195,54 @@ input[type="radio"].visually-hidden {
     width: 1200px;
     height: 593px;
     border: none;
+}
+
+/* Анимация формы поиска */
+
+@-webkit-keyframes show {
+    0% {
+        -webkit-transform: translateX(-50%) scaleY(0.1);
+                transform: translateX(-50%) scaleY(0.1);
+    }
+    40% {
+        -webkit-transform: translateX(-50%) scaleY(1.02);
+                transform: translateX(-50%) scaleY(1.02);
+    }
+    60% {
+        -webkit-transform: translateX(-50%) scaleY(0.98);
+                transform: translateX(-50%) scaleY(0.98);
+    }
+    80% {
+        -webkit-transform: translateX(-50%) scaleY(1.01);
+                transform: translateX(-50%) scaleY(1.01);
+    }            
+   
+    100% {
+        -webkit-transform: translateX(-50%) scaleY(1);
+                transform: translateX(-50%) scaleY(1);
+    }                           
+}
+
+@keyframes show {
+    0% {
+        -webkit-transform: translateX(-50%) scaleY(0.1);
+                transform: translateX(-50%) scaleY(0.1);
+    }
+    40% {
+        -webkit-transform: translateX(-50%) scaleY(1.02);
+                transform: translateX(-50%) scaleY(1.02);
+    }
+    60% {
+        -webkit-transform: translateX(-50%) scaleY(0.98);
+                transform: translateX(-50%) scaleY(0.98);
+    }
+    80% {
+        -webkit-transform: translateX(-50%) scaleY(1.01);
+                transform: translateX(-50%) scaleY(1.01);
+    }            
+   
+    100% {
+        -webkit-transform: translateX(-50%) scaleY(1);
+                transform: translateX(-50%) scaleY(1);
+    }                           
 }
