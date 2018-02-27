@@ -4,3 +4,5 @@ That site is a personal project of the course "HTML & CSS basic course" - HTML A
 There are a cross-browser, java script for the search form and animation.
 
 The project is 100% completed. 
+
+You can see it here:  https://ksenia-gezalova.github.io/sedona/
